@@ -28,11 +28,11 @@ namespace ArraysAndLists
             {
                 if (i % 2 == 0)
                 {
-                    evens.Add(i);
+                    evens.Add(numbers[i]);
                 }
                 else
                 {
-                    odds.Add(i);
+                    odds.Add(numbers[i]);
                 }
             }
             /* Now using foreach or for loops,
